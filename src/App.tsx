@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <div className="programs">
+        {/* <div className="programs">
           <ul className="ulEnrol">
           <label>Selecciona el tipo de estudio:</label>
             <li className="parentLabels" onChange={handleChangeProgram}>
@@ -46,7 +46,7 @@ function App() {
             </li>
             <li>Matriculaciones actuales: {enrolments}</li>
           </ul>
-        </div>
+        </div> */}
         <EnrolmentForm
           chosenProgram={program}
           onChangeEnrolments={handleChangeEnrolments}

@@ -25,7 +25,7 @@ function EnrolmentForm(props: EnrolmentFormProps) {
   return (
     <div>
       <form className="enrolForm" onSubmit={handleSubmit}>
-        <h1>Datos del estudiante - {props.chosenProgram}</h1>
+        <h1>Datos del estudiante</h1>
         <label>Nombre:</label>
         <input
           type="text"
